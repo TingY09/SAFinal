@@ -23,7 +23,7 @@ st.write("1. 分別計算經濟成長率、失業率與各項犯罪的相關係�
 st.header(":six:使用工具", divider='grey')
 st.write("1. Streamlit。\n2. Excel。")
 st.header(":seven:程式碼", divider='rainbow')
-st.link_button('github', 'https://github.com/TingY09')
+st.link_button('github', 'https://github.com/TingY09/SAFinal')
 
 
 
