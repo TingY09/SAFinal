@@ -6,3 +6,8 @@ import pandas as pd
 chart_data1 = pd.read_csv('compare.csv')
 st.subheader('經濟與犯罪率的相關性')
 st.area_chart(chart_data1, x='種類', y=['經濟成長率', '失業率', '消費者物價-指數', '工業及服務業平均月工時（小時）'])
+
+show = st.checkbox('顯示相關性係數矩陣')
+
+if show:
+    st.image('correlation_matrix.png')
