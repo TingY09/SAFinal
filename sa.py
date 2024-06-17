@@ -30,7 +30,7 @@ plt.xticks(rotation=45)
 plt.yticks(rotation=0)
 plt.tight_layout()
 
-# # 保存热图为图片文件
+# 將相關係數矩陣熱圖儲存為png檔
 plt.savefig('correlation_matrix.png')
 
 # 將相關係數矩陣儲存到名為 correlation_matrix.csv 的文件中
